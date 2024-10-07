@@ -5,6 +5,7 @@ homepage: https://khalti.com/payment-gateway/
 documentation: https://docs.khalti.com/
 issue_tracker: https://github.com/khalti/checkout-sdk-flutter/issues
 repository: https://github.com/khalti/checkout-sdk-flutter/tree/main/packages/khalti_checkout_flutter
+publish_to: none
 
 environment:
   sdk: ">=3.2.0 <4.0.0"
@@ -21,7 +22,8 @@ dependencies:
   flutter_inappwebview: ^6.0.0
   http: ^1.2.0
   internet_connection_checker_plus: ^2.2.0
-  khalti_checkout_core: ^1.0.0-dev.4
+  khalti_checkout_core:
+    path: ../khalti_checkout_core
   meta: ^1.11.0
   url_launcher: ^6.2.5
 
